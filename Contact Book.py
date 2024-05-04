@@ -6,7 +6,7 @@ email = [" " for i in range(maxrange)]
 address = [" " for i in range(maxrange)]
 
 ch = 'n'
-while ch != 'y' or ch != 'y':
+while ch != 'Y' or ch != 'y':
     choice = int(input("1)Add Contact\n2)View Contact List\n3)Search Contact\n4)Update Contact\n5)Delete Contact\n"))
     if choice == 1:
         if (count != maxrange):
